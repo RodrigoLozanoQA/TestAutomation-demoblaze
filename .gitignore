@@ -31,3 +31,4 @@ out
 /src/test/resources/screenshots/**
 *.iml
 *.html
+*.exe
