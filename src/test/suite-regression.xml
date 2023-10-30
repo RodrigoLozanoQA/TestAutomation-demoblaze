@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1">
+    <parameter name="url" value="https://www.demoblaze.com"/>
+    <test name="All Test chrome">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="order"/>
+        </packages>
+    </test>
+    <test name="All Test Firefox">
+        <parameter name="browser" value="firefox"/>
+        <packages>
+            <package name="order"/>
+        </packages>
+    </test>
+</suite>
